@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>利用css3做出帧动画</title>
+    <style>
+        .loading2{
+            position:absolute;
+            top: 20px;
+            left: 50%;
+            margin-left:-50px;
+            width: 100px;
+            height: 100px;
+            background-image: url(./images/loading2.png);
+            background-size: 100px 4100px;
+            background-position: 0 -600px;
+            -webkit-animation: loading2 steps(1, end) 1.5s infinite running backwards
+        }
+        @-webkit-keyframes loading2 {
+            3.3%{
+                background-position: 0 -1200px;
+            }
+            6.6%{
+                background-position: 0 -1300px;
+            }
+            9.9%{
+                background-position: 0 -1400px;
+            }
+            13.2%{
+                background-position: 0 -1500px;
+            }
+            16.5%{
+                background-position: 0 -1600px;
+            }
+            19.8%{
+                background-position: 0 -1700px;
+            }
+            23.1%{
+                background-position: 0 -1800px;
+            }
+            26.4%{
+                background-position: 0 -1900px;
+            }
+            29.7%{
+                background-position: 0 -2000px;
+            }
+            33%{
+                background-position: 0 -2100px;
+            }
+            36.3%{
+                background-position: 0 -2200px;
+            }
+            39.6%{
+                background-position: 0 -2300px;
+            }
+            42.9%{
+                background-position: 0 -2400px;
+            }
+            46.2%{
+                background-position: 0 -2500px;
+            }
+            49.5%{
+                background-position: 0 -2600px;
+            }
+            52.8%{
+                background-position: 0 -2700px;
+            }
+            56.1%{
+                background-position: 0 -2800px;
+            }
+            59.4%{
+                background-position: 0 -2900px;
+            }
+            62.7%{
+                background-position: 0 -3000px;
+            }
+            66%{
+                background-position: 0 -3100px;
+            }
+            69.3%{
+                background-position: 0 -3200px;
+            }
+            72.6%{
+                background-position: 0 -3300px;
+            }
+            75.9%{
+                background-position: 0 -3400px;
+            }
+            79.2%{
+                background-position: 0 -3500px;
+            }
+            82.5%{
+                background-position: 0 -3600px;
+            }
+            85.8%{
+                background-position: 0 -3700px;
+            }
+            89.1%{
+                background-position: 0 -3800px;
+            }
+            92.4%{
+                background-position: 0 -3900px;
+            }
+            95.7%{
+                background-position: 0 -4000px;
+            }
+            100%{
+                background-position: 0 -4100px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="loading2"></div>
+</body>
+</html>
